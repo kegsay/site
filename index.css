@@ -30,12 +30,17 @@ body {
 }
 
 
-.sched {
-    display: flex;
+.quip {
+    text-wrap: nowrap;
 }
 
-.sched-item {
-    flex: 1 1 50%;
+.schedule-row {
+    display: flex;
+    padding-bottom: 1em;
+}
+
+.schedule-time {
+    margin-right: 20px;
 }
 
 .header-top {
@@ -210,6 +215,10 @@ p {
     color: #28104e;
     font-weight: 300;
 }
+.schedule-row {
+    color: #28104e;
+    font-weight: 300;
+}
 .small-print {
     font-size:  0.8rem;
     padding-bottom: 15px;;
@@ -251,6 +260,12 @@ a:hover {
     label,
     p {
         font-size: 1.2rem;
+    }
+    .schedule-row {
+        font-size: 1.2rem;
+    }
+    .col1-2 {
+        min-width: 390px;
     }
 
     h3 {
