@@ -60,10 +60,10 @@ body {
 
 
 .picture-top {
-    background-image: url(./Graphics/w.jpg); 
+    background-image: url(./Graphics/w-wide.png); 
     background-position-y: center;
     height: 1;
-    padding-top: 55%;
+    padding-top: 60%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -240,10 +240,10 @@ a:hover {
 
 @media (max-width: 800px) {
     .picture-top {
-        background-image: url(./Graphics/w.jpg);   
+        background-image: url(./Graphics/w-long.png);   
         background-size: 100% auto;
         height: 0;
-        padding-top: 120%;
+        padding-top: 135%;
         background-repeat: no-repeat;
     }
 
